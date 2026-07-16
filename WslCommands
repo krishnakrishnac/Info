@@ -3,13 +3,24 @@ wsl --install <distro name>
 wsl --list
 wsl --list --verbose
 
-# will shutdown all distros
+HOW TO SHUTDOWN ALL DISTROS?
    - wsl --shutdown
-# shutdown a particular distro
+
+HOW TO SHUTDOWN A PARTICULAR DISTRO?
    - wsl --terminate <distro name>
-# How to set a default distro?
+
+HOW TO SET A DEFAULT DISTRO ON WSL?
    - wsl --set-default <distro name>
-# How to check the status of wsl
+
+HOW TO CHECK STATUS OF WSL?
   - wsl --status
-# How to remove a distro?
-    - wsl --unregister <distro-name>
+
+HOW TO REMOVE A DISTRO?
+  - wsl --unregister <distro-name>
+
+ACCESSING WINDOWS FILES FROM A DISTRO?
+      cd /mnt/c
+
+HOW TO ACCESS LINUX FILES FROM WINDOWS?
+   - Being in linux distro
+   - explorer.exe . (current file location)
