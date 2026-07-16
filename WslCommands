@@ -1,0 +1,15 @@
+wsl --list --online
+wsl --install <distro name>
+wsl --list
+wsl --list --verbose
+
+# will shutdown all distros
+   - wsl --shutdown
+# shutdown a particular distro
+   - wsl --terminate <distro name>
+# How to set a default distro?
+   - wsl --set-default <distro name>
+# How to check the status of wsl
+  - wsl --status
+# How to remove a distro?
+    - wsl --unregister <distro-name>
